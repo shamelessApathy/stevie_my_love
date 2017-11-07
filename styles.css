@@ -1,0 +1,86 @@
+.container
+{
+	padding-top:100px;
+	width:100%;
+}
+
+.center
+{
+	margin:auto 0;
+	text-align:center;
+}
+.mobius-holder
+{
+	width:450px;
+	margin:0 auto;
+}
+.mobius-holder img
+{
+	max-width:100%;
+	text-align:center;
+}
+.pic-holder
+{
+	width:300px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.pic-holder img 
+{
+	max-width:100%;
+}
+.link
+{
+	text-decoration:none;
+}
+body {
+   background-color: pink;
+   margin: 50px;20px;50px;20px;
+   padding: 0px;
+}
+h1 {
+  font-family:'Cedarville Cursive', cursive;
+  font-weight: normal;
+  font-size: 4em;
+}
+.heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin:0 auto;
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
